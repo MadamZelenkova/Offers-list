@@ -1,6 +1,7 @@
+import ItemType from "../Types/ItemType";
 import Item from "./Item";
 
-export default function Listing({ items = [] }: { items: Array<any> }) {
+export default function Listing({ items = [] }: { items: Array<ItemType> }) {
   return (
     <div className="item-list">
       {items.map((item) =>

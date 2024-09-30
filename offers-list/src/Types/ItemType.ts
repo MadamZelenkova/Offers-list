@@ -9,4 +9,5 @@ export default interface ItemType {
   currency_code: string;
   price: string;
   quantity: number;
+  error_messages: string;
 }
